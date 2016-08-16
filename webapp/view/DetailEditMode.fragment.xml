@@ -1,0 +1,30 @@
+<core:FragmentDefinition height="100%" width="100%" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form">
+	<Panel>
+		<content>
+			<f:SimpleForm id="iconTabFilter1form" minWidth="1024" editable="false" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3"
+				emptySpanL="4" emptySpanM="4" columnsL="1">
+				<f:content>
+					<Label id="label1" text="ProductName"></Label>
+					<Input id="input1" value="{ProductName}"></Input>
+					<Label id="label2" text="SupplierID"></Label>
+					<Input id="input2" value="{SupplierID}"></Input>
+					<Label id="label3" text="CategoryID"></Label>
+					<Input id="input3" value="{CategoryID}"></Input>
+					<Label id="label4" text="QuantityPerUnit"></Label>
+					<Input id="input4" value="{QuantityPerUnit}"></Input>
+					<Label id="label5" text="UnitPrice"></Label>
+					<Input id="input5" value="{UnitPrice}"></Input>
+					<Label id="label6" text="UnitsInStock"></Label>
+					<Input id="input6" value="{UnitsInStock}"></Input>
+					<Label id="label7" text="UnitsOnOrder"></Label>
+					<Input id="input7" value="{UnitsOnOrder}"></Input>
+					<Label id="label8" text="ReorderLevel"></Label>
+					<Input id="input8" value="{ReorderLevel}"></Input>
+					<Label id="label9" text="Discontinued"></Label>
+					<Switch id="input9" customTextOff="False" customTextOn="True" state="{Discontinued}"></Switch>
+				</f:content>
+			</f:SimpleForm>
+		</content>
+	</Panel>
+</core:FragmentDefinition>
